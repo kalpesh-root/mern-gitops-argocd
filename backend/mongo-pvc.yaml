@@ -5,6 +5,7 @@ metadata:
   name: mongo-pvc
   namespace: backend
 spec:
+  storageClassName: gp3
   accessModes:
     - ReadWriteOnce
   resources:
